@@ -15,7 +15,7 @@ export const intro = {
   ],
   about: {
     title: "About me",
-    description: `I am a Lead Software Engineer, having expertise in backend development and exposure to front- end development.I design and develop api's using the latest technologies to deliver the product with quality code.I am very good at Serverless Architecture and can adapt to most of the backend frameworks quickly..`,
+    description: `I am a highly skilled and motivated Lead Backend Developer with expertise in Python. My deep understanding of backend architecture and extensive experience in designing scalable and efficient systems allows me to create robust and reliable solutions.I am very good at Serverless Architecture and can adapt to most of the backend frameworks & languages quickly.`,
   }
   // ,
   // objective: {
