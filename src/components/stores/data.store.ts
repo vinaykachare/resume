@@ -22,6 +22,7 @@ export const useAchievements = create(() => ({
 
 export const useSkills = create(() => ({
   technical: skills.technical,
+  frameworks: skills.frameworks,
   exposure: skills.exposure,
   methodology: skills.methodology,
   tools: skills.tools,

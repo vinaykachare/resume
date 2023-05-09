@@ -43,16 +43,17 @@ export function ProfessionalTemplate() {
   );
 
   const [keyProjects, certificates] = achievements ?? [null, null];
-  const [technical, exposure, methodology, tools] = useSkills(
+  const [technical, frameworks, exposure, methodology, tools] = useSkills(
     (state: any) => [
       state.technical,
+      state.frameworks,
       state.exposure,
       state.methodology,
       state.tools,
     ],
     shallow
   );
-  
+
   const leftSections = [
     {
       title: experience?.title,
@@ -68,7 +69,7 @@ export function ProfessionalTemplate() {
       component: <ListSection items={certificates?.items} />,
     },
   ];
-  
+
   const rightSections = [
     {
       title: intro.about?.title,
@@ -87,6 +88,7 @@ export function ProfessionalTemplate() {
       title: technical?.title,
       component: <RatedSection items={technical?.items} />,
     },
+    { title: frameworks?.title, component: <UnratedSection items={frameworks?.items} /> },
     { title: exposure?.title, component: <UnratedSection items={exposure?.items} /> },
     {
       title: methodology?.title,
@@ -107,7 +109,7 @@ export function ProfessionalTemplate() {
         </SectionIntro>
 
         {leftSections.map(({ title, component, styles }) => {
-          if(!title)
+          if (!title)
             return null;
 
           return (
@@ -120,7 +122,7 @@ export function ProfessionalTemplate() {
 
       <RightSection>
         {rightSections.map(({ title, component }) => {
-          if(!title)
+          if (!title)
             return null;
 
           return (

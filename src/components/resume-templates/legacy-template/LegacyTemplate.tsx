@@ -59,9 +59,10 @@ export function LegacyTemplate() {
     (state: any) => [state.keyProjects, state.certificates],
     shallow
   );
-  const [technical, exposure, methodology, tools] = useSkills(
+  const [technical, frameworks, exposure, methodology, tools] = useSkills(
     (state: any) => [
       state.technical,
+      state.frameworks,
       state.exposure,
       state.methodology,
       state.tools,
@@ -112,10 +113,14 @@ export function LegacyTemplate() {
         <Description description={intro.objective?.description} />
         <Separator />
         <SectionHeader
-          Icon={getIcon(technical?.title)}
-          title={technical?.title}
+          Icon={getIcon(frameworks?.title)}
+          title={frameworks?.title}
         />
         <RatingElement items={technical?.items} />
+        <Separator />
+        <SectionHeader Icon={getIcon(exposure?.title)} title={exposure?.title} />
+        <UnratedSection items={exposure?.items} />
+
         <Separator />
         <SectionHeader Icon={getIcon(exposure?.title)} title={exposure?.title} />
         <UnratedSection items={exposure?.items} />

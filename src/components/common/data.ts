@@ -1,67 +1,84 @@
 export const intro = {
-  name: "Jane Doe",
-  role: "Frontend Developer",
-  mobile: "+91 9876543210",
-  email: "johndoe@email.com",
-  location: "Bengaluru",
+  name: "Vinay Kachare",
+  role: "Backend Developer",
+  mobile: "+91 9664944700",
+  email: "vinaykachare@gmail.com",
+  location: "Mumbai",
   experience: [
-    { type: "Frontend experience", years: "4 years" },
-    { type: "Total Experience", years: "6 years" },
+    { type: "Total Experience", years: "9+ years" },
   ],
   social: [
-    ["linkedin", "https://www.linkedin.com/in/sadanandpai/"],
-    ["github", "https://github.com/sadanandpai/"],
+    ["linkedin", "https://www.linkedin.com/in/vinaykachare/"],
+    ["github", "https://github.com/vinaykachare"],
+    ["medium", "https://vinaykachare.medium.com/"]
+
   ],
-  photo:
-    "https://www.linkpicture.com/q/generated_photos_5e68893b6d3b380006f22f8b.jpg",
   about: {
     title: "About me",
-    description: `I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.\nI am very good at UI fundamentals & Technologies and can adapt to most of the front-end frameworks quickly.`,
-  },
-  objective: {
-    title: "Career Objective",
-    description:
-      "Eager to expand my skill set through external trainings to help boost all major front desk KPIs. Hoping to leverage organizational skills to help ABC Corp introduce time-saving schemes for all executives.",
-  },
+    description: `I am a Lead Software Engineer, having expertise in backend development and exposure to front- end development.I design and develop api's using the latest technologies to deliver the product with quality code.I am very good at Serverless Architecture and can adapt to most of the backend frameworks quickly..`,
+  }
+  // ,
+  // objective: {
+  //   title: "Career Objective",
+  //   description:
+  //     "Eager to expand my skill set through external trainings to help boost all major front desk KPIs. Hoping to leverage organizational skills to help ABC Corp introduce time-saving schemes for all executives.",
+  // },
 };
 
 export const skills = {
   technical: {
     title: "Technical Expertise",
     items: [
-      { name: "JavaScript", rating: 5 },
-      { name: "HTML5", rating: 5 },
-      { name: "CSS", rating: 5 },
-      { name: "React", rating: 4 },
-      { name: "Angular", rating: 4 },
+      { name: "Python", rating: 5 },
+      { name: "C#", rating: 4 },
+      { name: "Serverless", rating: 4 },
+      { name: "JavaScript", rating: 4 },
+      { name: "Go", rating: 2 },
     ],
+  },
+
+  frameworks: {
+    title: "Backend Frameworks",
+    items: [
+      "FastAPI",
+      "Django",
+      "Django REST",
+      "Flask",
+      "Node JS"
+    ]
+
   },
   exposure: {
-    title: "Skills / Expsoure",
+    title: "Cloud Expsoure (AWS)",
     items: [
-      "Algorithms",
-      "Data Structures",
-      "SQL",
-      "Progressive Web Apps",
-      "jQuery",
-      "Redux",
-      "Firebase",
+      "Lambda",
+      "API Gateway",
+      "WebSocket",
+      "SQS",
+      "DynamoDB",
+      "SNS",
+      "Textract",
+      "S3",
+      "IAM",
+      "CloudFormation",
+      "EC2",
+      "Serverless Application Model (SAM)",
     ],
   },
+
+
   methodology: {
     title: "Methodology / Approach",
     items: [
-      "Component based architecture",
+      "RESTful architecture",
       "Agile methodology",
       "Design Patterns",
       "Test Driven Development",
-      "MVC",
-      "RESTful architecture",
     ],
   },
   tools: {
     title: "Tools",
-    items: ["Git", "VS Code", "Jira", "Webpack", "Eclipse", "Bitbucket"],
+    items: ["Git", "Docker", "VS Code", "TFS", "Jira", "Visual Studio", "Bitbucket", "Jenkins"],
   },
 };
 
@@ -69,41 +86,52 @@ export const experience = {
   title: "Experience",
   companies: [
     {
-      name: "Comapny 1",
-      role: "Senior Software Developer",
-      years: "Apr 2021 - present",
-      expYears: "2.5 years",
+      name: "Morningstar",
+      role: "Lead Software Developer",
+      years: "Nov 2020 - present",
+      expYears: "2.6 years",
       description: [
-        "Use my extensive experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
+        "Use my extensive experience with back end development to define the structure and components for the project, making sure they are reusable",
         "Keep the code quality high reviewing code from other developers and suggesting improvements",
-        "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
-        "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
+        "Developed serverless applications with AWS using services like Lambda, API Gateway, SQS, SNS & Textract",
       ],
     },
     {
-      name: "Comapny 2",
-      role: "Software Developer",
-      years: "Jun 2015 - Dec 2017",
-      expYears: "2.5 years",
+      name: "SME Corner",
+      role: "Full Stack Developer",
+      years: "Jul 2019 - Nov 2020",
+      expYears: "1.5 years",
       description: [
-        "Develop web applications based on Sharepoint, Drupal 8 and Episerver",
-        "Lead a team of <strong>10 front end developers</strong>, giving support to the client's multi-cultural team, providing feedback, clarifying requirements and helping with technical questions",
-        "Keep the Project Manager and the IT Leads updated on the overall progress of the projects and manage the tasks distributed to the team",
+        "Develop web application which will scrap the customer details from the several government portals. This application is helpful to cross verify the customer background",
         "Keep the code and the features implemented by the other developers in accordance to the requirements",
       ],
     },
     {
-      name: "Comapny 3",
-      role: "Trainee Developer",
-      years: "Aug 2011 - May 2015",
-      expYears: "1 year",
+      name: "Ingram Micro India",
+      role: "Senior Software Engineer",
+      years: "Feb 2016 - Jun 2019",
+      expYears: "3.5 years",
       description: [
-        "Design easy user interfaces and great user experiences for the digital platforms of small companies",
-        "Wordpress development, including themes creation or customization, custom plugins development and training",
-        "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
-        "E-commerce development with Magento, customizing preexisting themes ",
-        "Integrate external services such as payment services, delivery, etc into Magento solutions",
-        "VPS configuration and optimization (Apache & Nginx)",
+        "Worked as a part of the International Team, handling the Nordics division Developed the Web Services which provides the real time inventory from ERP to the customers so that they can reserve the stock accordingly",
+        "Built a reporting portal for the Vodafone NZ. This provided the user an amenity to track the products sold to the end customer by Vodafone, in turn making the reverse logistic process easy for these products",
+      ],
+    },
+    {
+      name: "CCM PVT LTD",
+      role: "Application Developer",
+      years: "April 2015 - Feb 2016",
+      expYears: "10 months",
+      description: [
+        "Developed web portal for client (Citi Bank) to cover the changes they make in the documents that are recognized, tracked and displayed in the web",
+      ],
+    },
+    {
+      name: "HDFC Bank LTD",
+      role: "Software Developer",
+      years: "Nov 2013 - April 2015",
+      expYears: "1.6 years",
+      description: [
+        "Developed database driven applications independently from scratch, also worked on performance improvement of existing applications",
       ],
     },
   ],
@@ -113,21 +141,17 @@ export const achievements = {
   keyProjects: {
     title: "Key Projects / Involvements",
     items: [
-      "Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
-      "Isolated previously undiscovered flaw in price checking tool resulting in more competitive pricing and a 20 percent increase in revenue.",
-      "Implemented automated testing tools spawning more diligent levels of regression testing, negative testing, error/bug retests and usability.",
-      "Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
+      "Introduced AWS SAM (IaC) framework to the project in order to build the serverless application faster, making it easier not only to debug but to deploy and maintain the app's on AWS.",
+      "Improved project performance by identifying the bottleneck using profiler & implemented parallelism and concurrency based on profiling result.",
+      "Implemented Data Extractor which will extract data from PDF based on Event Driven Architecture.",
+      "Successfully developed a POC on site (New Zealand) to get the project approval from client.",
     ],
   },
   certificates: {
     title: "Certificates and Awards",
     items: [
-      "<strong>React</strong> and redux - A complete guide 2020 from Udemy",
-      "Agile and Scrum Master Certificate from Udacity",
-      "Best performer award for consistently exceeding the performance",
-      "Certificate of exceptional bug finder by XYZ client",
-      "Recorgnition zero defect delivery",
-      "Best performer award for consistently exceeding the performance",
+      "Rewarded with <strong>Star of the Quarter</strong> twice, for extraordinary performance in a quarter.",
+      "Best performer award for consistently exceeding the performance.",
     ],
   },
 };
@@ -136,11 +160,9 @@ export const education = {
   title: "Education",
   items: [
     {
-      institution: "XIV, University",
-      years: "2010 - 2014",
-      grade: "8.3 CGPA",
-      degree: "B.Tech",
-      specialization: "Masters in Cloud Technology",
+      institution: "Mumbai, University",
+      years: "2014 - 2017",
+      degree: "MCA",
     },
   ],
 };

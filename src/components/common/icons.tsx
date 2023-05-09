@@ -1,6 +1,8 @@
 import React from "react";
 import { AiOutlineGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import { SiAmazonaws } from "react-icons/si";
+import { AiFillMediumCircle } from "react-icons/ai";
 import { MdWork } from "react-icons/md";
 import { MdLocationOn } from "react-icons/md";
 import { MdCall } from "react-icons/md";
@@ -16,21 +18,23 @@ import { IoGitBranch } from "react-icons/io5";
 import { GoVerified } from "react-icons/go";
 
 const icons = new Map([
-    ["mobile", <MdCall />],
-    ["email", <MdMail />],
-    ["location", <MdLocationOn />],
-    ["github", <AiOutlineGithub />],
-    ["linkedin", <AiFillLinkedin />],
-    ["about me", <MdPermIdentity />],
-    ["technical expertise", <SiExpertsexchange />],
-    ["experience", <MdWork />],
-    ["education", <FaUniversity />],
-    ["tools", <MdBuild />],
-    ["key projects / involvements", <MdVpnKey />],
-    ["certificates and awards", <MdVerifiedUser />],
-    ["career objective", <AiOutlineAim />],
-    ["methodology / approach", <IoGitBranch />],
-    ["skills / expsoure", <GoVerified />],
+  ["mobile", <MdCall />],
+  ["email", <MdMail />],
+  ["location", <MdLocationOn />],
+  ["github", <AiOutlineGithub />],
+  ["linkedin", <AiFillLinkedin />],
+  ["medium", <AiFillMediumCircle />],
+  ["about me", <MdPermIdentity />],
+  ["technical expertise", <SiExpertsexchange />],
+  ["experience", <MdWork />],
+  ["education", <FaUniversity />],
+  ["tools", <MdBuild />],
+  ["key projects / involvements", <MdVpnKey />],
+  ["certificates and awards", <MdVerifiedUser />],
+  ["career objective", <AiOutlineAim />],
+  ["methodology / approach", <IoGitBranch />],
+  ["skills / expsoure", <GoVerified />],
+  ["cloud expsoure", <SiAmazonaws />],
 ]);
 
 export function getIcon(iconName: string) {
