@@ -87,7 +87,7 @@ export const experience = {
   companies: [
     {
       name: "Morningstar",
-      role: "Lead Software Developer",
+      role: "Lead Software Engineer",
       years: "Nov 2020 - present",
       expYears: "2.6 years",
       description: [
